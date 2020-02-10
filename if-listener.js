@@ -3,7 +3,7 @@ module.exports = function (RED) {
         RED.nodes.createNode(this, config);
         var node = this;
         let os = require('os');
-
+        let process = require('process');
         // Track the listeners and provide a way of adding a new one
         // You would probably want to put this into some kind of module
         // so it can be used in various places
