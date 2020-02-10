@@ -30,7 +30,8 @@ module.exports = function (RED) {
             });
             
             var msgTxt = 'xx';
-            onChange(msgTxt);
+
+            //onChange(msgTxt);
 
             msg.payload = msgTxt;
             node.send(msg);
