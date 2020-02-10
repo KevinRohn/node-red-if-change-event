@@ -1,0 +1,8 @@
+{
+    "name" : "node-red-if-change-event",
+    "node-red" : {
+        "nodes": {
+            "lower-case": "if-listener.js"
+        }
+    }
+}
